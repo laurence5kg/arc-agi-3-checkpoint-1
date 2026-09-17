@@ -1,0 +1,5 @@
+with open('.venv/Lib/site-packages/arc_agi/base.py', 'r') as f:
+    text = f.read()
+    start = text.find('def _create_scorecard_no_lock')
+    end = text.find('def close_scorecard', start)
+    print(text[start:end])

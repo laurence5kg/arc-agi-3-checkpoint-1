@@ -49,3 +49,8 @@ __all__ = [
     "AVAILABLE_AGENTS",
     "MultiModalLLM",
 ]
+
+import sys
+sys.path.append('.')
+from agent import GeneralAgent
+AVAILABLE_AGENTS['generalagent'] = GeneralAgent

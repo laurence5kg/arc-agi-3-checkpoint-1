@@ -146,6 +146,9 @@ def main() -> None:
         logger.info(
             f"Using game '{game_prefix}' derived from playback recording filename"
         )
+    elif not full_games and args.game:
+        full_games = args.game.split(",")
+        logger.info("Using local offline games derived from --game argument")
     games = full_games[:]
     if args.game:
         filters = args.game.split(",")
@@ -205,4 +208,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     os.environ["TESTING"] = "False"
+    os.environ["OPERATION_MODE"] = "offline"
     main()
