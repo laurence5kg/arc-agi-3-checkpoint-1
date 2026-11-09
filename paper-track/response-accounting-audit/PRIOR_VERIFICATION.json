@@ -1,0 +1,51 @@
+{
+  "verified_utc": "2026-11-06T11:41:27.660174+00:00",
+  "new_local_checks": {
+    "aggregate": 28,
+    "response_partition": 153,
+    "pooled_saved_payload_replays": 29,
+    "posthoc_original_vs_repaired_cases": 6,
+    "boundary_unit_checks": 8,
+    "portable_raw_reextraction_byte_identical": true
+  },
+  "carried_forward_checks": {
+    "frozen_source_contract_tests": 47,
+    "rerun_in_this_revision": false,
+    "reason": "Frozen inference source is unchanged"
+  },
+  "source_files_matched_to_original": 42,
+  "tested_entrypoints": [
+    {
+      "path": "analyze.py",
+      "sha256": "22d7637d100fb12352d7812187ff2e138c4fe580a32ee4bce153a06c05afaa64"
+    },
+    {
+      "path": "analyze_responses.py",
+      "sha256": "8ed449b49b89af3599e710ede9d77f2ad3358dbc0bdbbdf4626c79b5889be3e7"
+    },
+    {
+      "path": "replay_saved_caps.py",
+      "sha256": "65f274e8ef5e4f3db40d1de099f789f03b9cc72c0f395e1d3041448f20fa666e"
+    },
+    {
+      "path": "check_terminal_repair.py",
+      "sha256": "8fda9d22c229cb86e8ca48c98e6c4260a2affd47c1337f99c98a30f6062efe9f"
+    },
+    {
+      "path": "extract_responses.py",
+      "sha256": "4c0813f940eb09393ead878a0696cd9d45b574ddbdee0408a13559864f91c932"
+    },
+    {
+      "path": "test_response_boundaries.py",
+      "sha256": "df8e86ccd79508499bc6734bd447aebd8a135ee90ad9faa8ac01026dd12eef47"
+    },
+    {
+      "path": "render_figures.py",
+      "sha256": "dac1449287c8cf0dcd944721cdceb1ff384d637b61fb1f32422dab433b4f4b28"
+    }
+  ],
+  "posthoc_patch_neural_performance_measured": false,
+  "scored_source_modified": false,
+  "new_neural_gameplay": false,
+  "new_kaggle_executions": 0
+}

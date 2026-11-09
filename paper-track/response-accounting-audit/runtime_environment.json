@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "reference_notebook": "dfranzen/arc-agi-3-milestone-2-solution/3",
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:57e612b484cf3df5026ee4dcc3cb176974b22b2bc0937fb1e16132a8be4cb13c",
+  "docker_image_pinning_type": "original",
+  "machine_shape": "NvidiaRtxPro6000",
+  "enable_internet": false,
+  "competition_sources": [
+    "arc-prize-2026-arc-agi-3"
+  ],
+  "dataset_sources": [
+    "dfranzen/pennyroyal-v253/1"
+  ],
+  "model_sources": [
+    "dfranzen/intel-qwen3.8-flash-next-w4a16-autoround/transformers/default/1",
+    "dfranzen/albucino-qwen3-8-flash-next-drafter/transformers/default/1"
+  ],
+  "python_requirement": "3.12 on Linux x86_64",
+  "qsa_mqa_source_sha256": "84a52bb2cf61411862fcd328324cad1d05be264009bed2c12c027b315eeb6f19",
+  "reason_for_pin": "The unpinned Kaggle default used Python 3.13 in the first cloud attempt; the reference image passed the 3.12 and CUDA import checks."
+}

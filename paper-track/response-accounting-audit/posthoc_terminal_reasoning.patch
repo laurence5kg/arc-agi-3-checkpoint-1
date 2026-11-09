@@ -1,0 +1,14 @@
+--- a/inference/agent/tool_agent.py
++++ b/inference/agent/tool_agent.py
+@@ -6914,6 +6914,11 @@
+                 capped_tool_call_count = len(tool_calls) if str(result.finish_reason or "").strip()=="length" else 0
+                 self._test1_bad_calls = getattr(self,"_test1_bad_calls",0)+1 if (malformed_argument_errors or capped_tool_call_count) else 0
+                 if self._test1_bad_calls>=4:
++                    # Post-hoc repair: return the latest nonempty terminal reasoning.
++                    # This changes neither dispatch nor the four-response stop rule.
++                    if reasoning:
++                        captured_reasoning = reasoning
++                        append_transcript("THINKING", reasoning)
+                     raise TokenContractError("four consecutive malformed or output-capped tool-call responses")
+                 if capped_tool_call_count:
+                     truncated_tool_call = True

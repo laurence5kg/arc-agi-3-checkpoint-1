@@ -1,0 +1,356 @@
+{
+  "scope": "Public scalar/code subset; excludes raw logs, boards, saved generated Python payloads, prose and verification reports",
+  "previous_private_evidence_manifest_sha256": "8fba82eab4991311cf624a0033399824ad11f57e694459601b5fb018698e71e3",
+  "excluded_private_payloads": [
+    {
+      "path": "data/capped_responses.json",
+      "sha256": "a1c522fdbac2293270802a810718e982e80d7248082874c82bb76ddd83c9356e"
+    },
+    {
+      "path": "data/pooled_capped_responses.json",
+      "sha256": "2a9497fde6ce2fb08fb91d6ba84c42901ccf4405a7870e03288bd8e745e40e95"
+    }
+  ],
+  "files": [
+    {
+      "path": "analyze.py",
+      "sha256": "22d7637d100fb12352d7812187ff2e138c4fe580a32ee4bce153a06c05afaa64",
+      "bytes": 4128
+    },
+    {
+      "path": "analyze_public_scalars.py",
+      "sha256": "84336304afc5e613df04e0b48d677aa4f42a1a837c9e8b929d6e356288472a51",
+      "bytes": 2217
+    },
+    {
+      "path": "analyze_responses.py",
+      "sha256": "8ed449b49b89af3599e710ede9d77f2ad3358dbc0bdbbdf4626c79b5889be3e7",
+      "bytes": 3414
+    },
+    {
+      "path": "check_terminal_repair.py",
+      "sha256": "8fda9d22c229cb86e8ca48c98e6c4260a2affd47c1337f99c98a30f6062efe9f",
+      "bytes": 5107
+    },
+    {
+      "path": "data/capped_case_metadata.json",
+      "sha256": "6863b6f8e72938db30b7b8ae0f81224c3004bca2f971b45741fd98df5d792c37",
+      "bytes": 10377
+    },
+    {
+      "path": "data/experiments.json",
+      "sha256": "596cf3a6a0029d66688f34da59b2cb373dc230fa9d89e4d99b31228c81d8c981",
+      "bytes": 19717
+    },
+    {
+      "path": "data/r0_estimator_deltas.json",
+      "sha256": "35fa2bfe51a9a2e70805ddf08aa85c5bb28bd27a5797770fea993a3138b5e21a",
+      "bytes": 1053999
+    },
+    {
+      "path": "data/response_audit.json",
+      "sha256": "08b83c8bcd7bba237224f9a4f4e6e7da911499c959d586294ce7933404be600f",
+      "bytes": 6732363
+    },
+    {
+      "path": "data/serving_token_normalization_proof.json",
+      "sha256": "219c952fbd7355d6bd2b3a6d6fde98de50d27691b7efbb2040586d6198c8879c",
+      "bytes": 56663
+    },
+    {
+      "path": "extract_responses.py",
+      "sha256": "4c0813f940eb09393ead878a0696cd9d45b574ddbdee0408a13559864f91c932",
+      "bytes": 9529
+    },
+    {
+      "path": "figure_data.json",
+      "sha256": "3e09b8c21affa5ca5e7639b64dcc1e81c07a6e256b20a67bc8350e665b2d8807",
+      "bytes": 2158
+    },
+    {
+      "path": "figures/cover_audit.png",
+      "sha256": "6b106c6cccffb5fd56a9c5aa94d256b9518b722d00de18087df6d7abcbe8efd1",
+      "bytes": 48547
+    },
+    {
+      "path": "figures/retention_episodes.png",
+      "sha256": "e4379cec0e78641d9fd3d1ab29b56409fa8c63220015081847b7fe17fdd040aa",
+      "bytes": 43774
+    },
+    {
+      "path": "figures/retention_episodes.svg",
+      "sha256": "92c9a940bc148e58cc609de42720f475ea97ca65cc705399a002af0c654f42cb",
+      "bytes": 37425
+    },
+    {
+      "path": "notices/Franzen-LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    {
+      "path": "notices/Qwen-model-LICENSE",
+      "sha256": "a0dc422560841fd68e06d974907f8b4c709bca44a67daad2b528437bdf676c08",
+      "bytes": 3235
+    },
+    {
+      "path": "posthoc_patch_manifest.json",
+      "sha256": "f8d218f8ab96f50dcf58d0c8684caca872f63ffbf7ad175c6963c6bf113073c6",
+      "bytes": 387
+    },
+    {
+      "path": "posthoc_terminal_reasoning.patch",
+      "sha256": "6b77627ea29649bc49dd0d21dea2591f49c5c9c6f2bd30c1922a758fcf21f27a",
+      "bytes": 950
+    },
+    {
+      "path": "probe_terminal_cap.py",
+      "sha256": "7b6cb62c889cd078a588ee7812d30fdcfa9b931dadc4e59e12c7b505c7356f1d",
+      "bytes": 3318
+    },
+    {
+      "path": "render_figures.py",
+      "sha256": "dac1449287c8cf0dcd944721cdceb1ff384d637b61fb1f32422dab433b4f4b28",
+      "bytes": 2519
+    },
+    {
+      "path": "replay_saved_caps.py",
+      "sha256": "65f274e8ef5e4f3db40d1de099f789f03b9cc72c0f395e1d3041448f20fa666e",
+      "bytes": 3693
+    },
+    {
+      "path": "requirements-figures.txt",
+      "sha256": "12e3d3c71d6161926b7ce4fac2ca20ff83fc55bc2721c53dd002d084c6c532db",
+      "bytes": 20
+    },
+    {
+      "path": "requirements-replay.lock.txt",
+      "sha256": "f98afee9433f3cf2934dcbebfa38d239965e0f04fa690177a4ed7e7d80f78624",
+      "bytes": 752
+    },
+    {
+      "path": "runtime/inference/__init__.py",
+      "sha256": "d9244cc613220677e2c47b8cd5a218786b918a542bcba63682a3d0778006cf8a",
+      "bytes": 90
+    },
+    {
+      "path": "runtime/inference/agent/__init__.py",
+      "sha256": "0c0a18c681d1f6c035848048af21405b36021f93bdd465e44896494454886813",
+      "bytes": 216
+    },
+    {
+      "path": "runtime/inference/agent/action_names.py",
+      "sha256": "8dd40e957046977e811eb2c2eb13fce905dbecf77f8dc7f846540f4d48af963d",
+      "bytes": 2055
+    },
+    {
+      "path": "runtime/inference/agent/noop_repeat_guard.py",
+      "sha256": "e9172d58687e9043c3445f87e11bdf74c4104d8b0bed5fb6b54745a6aa58655a",
+      "bytes": 8505
+    },
+    {
+      "path": "runtime/inference/agent/priority_pace_reference.json",
+      "sha256": "f29c16e336aef6b0dbf73ec056f554bd5192ac02f8deeda70ad152ef1214d0ab",
+      "bytes": 716
+    },
+    {
+      "path": "runtime/inference/agent/priority_scheduler.py",
+      "sha256": "3a13659001458ea1a45ee3a812babe1b0012409eeabb23d681395796941b8e94",
+      "bytes": 5926
+    },
+    {
+      "path": "runtime/inference/agent/prompts.py",
+      "sha256": "14965a99bc55a61dad59fb79038f56c0ba1d1368350c8487b5a7b9edef0488ac",
+      "bytes": 28531
+    },
+    {
+      "path": "runtime/inference/agent/python_tool_sandbox.py",
+      "sha256": "4a5511ca3c48562bb830b7e24449f1522d5084a8a08dffacab7fbf183001a62b",
+      "bytes": 42025
+    },
+    {
+      "path": "runtime/inference/agent/runtime_state.py",
+      "sha256": "b5c55d561a63e2dcf0422ee7fd339923a9fb909c779302bbf02b8ea49ccc607f",
+      "bytes": 4026
+    },
+    {
+      "path": "runtime/inference/agent/tool_agent.py",
+      "sha256": "f1c94f4d00725a4fda70c3fcffea147d39dd1690e20b6878e5d355e1e7c52573",
+      "bytes": 349493
+    },
+    {
+      "path": "runtime/inference/agent/vision_context.py",
+      "sha256": "51d54a7aa9f1cd8e41b3fcc00ffd1a9cd1ada6fcde261d09faa49561fd843466",
+      "bytes": 12922
+    },
+    {
+      "path": "runtime/inference/framework/__init__.py",
+      "sha256": "97c7fcfe9e5f8b109b90416413b052099ab628e8c1c6a8c888612b3074a1b6bf",
+      "bytes": 56
+    },
+    {
+      "path": "runtime/inference/framework/kaggle.py",
+      "sha256": "d600a993a8642a808fb83080be40bfc3fd9ababa6b84e15abba713e8e2d7ebbe",
+      "bytes": 17688
+    },
+    {
+      "path": "runtime/inference/framework/run.py",
+      "sha256": "197b1e6d85cd0738567ef77226557d32cff2d364865630921a7df0e20ce3a9be",
+      "bytes": 55608
+    },
+    {
+      "path": "runtime/inference/framework/solver.py",
+      "sha256": "45218afbca62392ae1333e45eca5a454b3d7c93cf2c267d29f0182246c71cf2b",
+      "bytes": 81910
+    },
+    {
+      "path": "runtime/inference/test1/__init__.py",
+      "sha256": "3a601382a92bd4adcf5059d44a41a44b18ba7f4aa8f5b9d0f8c6a2f7d6c352b9",
+      "bytes": 84
+    },
+    {
+      "path": "runtime/inference/test1/exact_tokens.py",
+      "sha256": "05aaf9038861dde79f07bce857b7a80a64c70b788a1b5170c23e83d6ff8dcbf7",
+      "bytes": 2679
+    },
+    {
+      "path": "runtime/inference/test1/lifecycle.py",
+      "sha256": "22251af84b54ad222c415b55656e92bc0f724b1ac7c44c5756b2ac406bbb7700",
+      "bytes": 6290
+    },
+    {
+      "path": "runtime/inference/test1/model_tools.py",
+      "sha256": "12dc8d10a191e6971cc89e880b61893f20dc3195bb885ee4c8dbb7814b2cbf6b",
+      "bytes": 22506
+    },
+    {
+      "path": "runtime/inference/test1/owned_cleanup.py",
+      "sha256": "0c8c54f88f8d0d261d7ef68a8799111d8ae91f240c6fc1bcbf3ddebfff2fcc38",
+      "bytes": 6281
+    },
+    {
+      "path": "runtime/inference/test1/session.py",
+      "sha256": "1cd46f3e0f5dd5b3e021e04d1fef9a6e3dec3d907a9aa3d33d8de02239685ce1",
+      "bytes": 9445
+    },
+    {
+      "path": "runtime/inference/test1/token_contract.py",
+      "sha256": "fe354bb1861589c9b006b65141e3cdcd1945ea877af3eabe15cd961fff147518",
+      "bytes": 7047
+    },
+    {
+      "path": "runtime/inference/test1/vision_budget.py",
+      "sha256": "cab46b1b4eca1bc620d93e8ab86f57958ae3dabf714c05a9e62dd2db40c3f326",
+      "bytes": 1621
+    },
+    {
+      "path": "runtime/inference/tools/__init__.py",
+      "sha256": "36ac2d2804aa381c402ee585e9c45f3d58d9a8b3075510cdd772df2eec2ef889",
+      "bytes": 53
+    },
+    {
+      "path": "runtime/inference/tools/chat.py",
+      "sha256": "f9ac5aa9459ef11161020b275e0af6595b255fc35a1f8d4966a505d955e4cd31",
+      "bytes": 7135
+    },
+    {
+      "path": "runtime/inference/tools/config_value.py",
+      "sha256": "a10980e5e708f68cfdef0d065a0907137d6f26749ab6f2ba5f7135421847a5c6",
+      "bytes": 1184
+    },
+    {
+      "path": "runtime/inference/tools/eval.py",
+      "sha256": "28df9899d6bcb5d02c068934d5828e217deddaebb29a12a706be5fe2a0f3c447",
+      "bytes": 28385
+    },
+    {
+      "path": "runtime/inference/tools/eval_plot.py",
+      "sha256": "2e8a426161a230eb748bcc1db30ed2605c16351f6f5a51e77cae8d1cc19124f3",
+      "bytes": 9848
+    },
+    {
+      "path": "runtime/inference/tools/significance.py",
+      "sha256": "d3d19d4b9f95c4ca0dda099f04857f5f6507c6a3a3479dd5cea20c6b8e2eb6af",
+      "bytes": 33491
+    },
+    {
+      "path": "runtime/inference/tools/traces.py",
+      "sha256": "d8a4941558fb7117951474b1a72ad744eccfc330cef58187981556a2e00768b4",
+      "bytes": 27525
+    },
+    {
+      "path": "runtime/inference/tools/vllm_runtime_lora_guard.py",
+      "sha256": "a5c3e4a06b8706d9c0f05f28d7395ae93e90c6774fbe2e15194e69536f6b6e2e",
+      "bytes": 3889
+    },
+    {
+      "path": "runtime/inference/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "runtime/inference/utils/animation.py",
+      "sha256": "6c14b613b3a7c66ce3373162d6faa1469a1ddb3ca4ab882299998c5cf14add96",
+      "bytes": 13806
+    },
+    {
+      "path": "runtime/inference/utils/frame_diff.py",
+      "sha256": "6ac3112773ffa6b1562b1e8f35a8018bd0dec9de7a78b12e7b13c529d4f46af8",
+      "bytes": 13933
+    },
+    {
+      "path": "runtime/inference/utils/grid_utils.py",
+      "sha256": "2c96de5a6e0da2ae0390ab191b39a154784089b00fce8e2da98ebb3960715b67",
+      "bytes": 662
+    },
+    {
+      "path": "runtime/inference/utils/openai_compat.py",
+      "sha256": "fea0a75081372769fd854997b99e7826b334dcc5966876f31f587d19ae961165",
+      "bytes": 7450
+    },
+    {
+      "path": "runtime/inference/utils/rearc_baselines.py",
+      "sha256": "c05d98e40704ae02b487862607964a18719ff96cc5c1d66bfd678a2c0bf4e4fb",
+      "bytes": 1187
+    },
+    {
+      "path": "runtime/inference/utils/rearc_version.py",
+      "sha256": "2548c1b2ba4b3bdd65de8b6255ece8d3317a06f9d4bbc25ed58aa46ed1da8826",
+      "bytes": 1829
+    },
+    {
+      "path": "runtime/inference/utils/retained_functions.py",
+      "sha256": "0d8b267cb387565c04d4977116020cc04d84ad9d9175d2bf4bc4613703cc5a01",
+      "bytes": 15229
+    },
+    {
+      "path": "runtime/inference/utils/run_artifacts.py",
+      "sha256": "c1a0c1a0bd994ae712dffe182b7c92af9fdd2dc68cccc8b472a356dbc3ad3b3b",
+      "bytes": 4769
+    },
+    {
+      "path": "runtime/inference/utils/segmentation.py",
+      "sha256": "0d19669e5a36351e41a6b94b7c68f5b258829de78441a03a8749687c262b452c",
+      "bytes": 10842
+    },
+    {
+      "path": "runtime/inference/utils/viewer_artifacts.py",
+      "sha256": "21f948f7398bdc16b8eaf9771edf0a3c6505349794c9c44154870b075f07a52f",
+      "bytes": 3855
+    },
+    {
+      "path": "runtime_environment.json",
+      "sha256": "e38be49f9a776db36e30ebe9b146fa1805af6d93d45246dd5609e13d020a0252",
+      "bytes": 956
+    },
+    {
+      "path": "runtime_manifest.json",
+      "sha256": "54c279eb2ab16bd0bdb078419ab125261b6c319d76f2d79788bd94e6452d427a",
+      "bytes": 10123
+    },
+    {
+      "path": "test_response_boundaries.py",
+      "sha256": "df8e86ccd79508499bc6734bd447aebd8a135ee90ad9faa8ac01026dd12eef47",
+      "bytes": 1494
+    }
+  ]
+}

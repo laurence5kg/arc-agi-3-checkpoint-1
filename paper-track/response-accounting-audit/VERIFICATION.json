@@ -1,0 +1,16 @@
+{
+  "verified_utc": "2026-11-09T11:36:26.863427+00:00",
+  "new_checks": {
+    "aggregate": 28,
+    "public_scalar": 92,
+    "r0_estimator_rows": 8840
+  },
+  "unchanged_runtime_files": 42,
+  "original_payload_replays_rerun": false,
+  "prior_payload_results": "Private prior evidence; raw payloads excluded from this public subset",
+  "new_kaggle_executions": 0,
+  "new_neural_gameplay": false,
+  "scope": "Pre-publication local checks; publication receipt is maintained separately",
+  "pdf_pages_visually_reviewed": 5,
+  "evidence_manifest_sha256": "96c896a46f880119afd8cae611da5ce7ca043122ec0cff2adf04bc357414c197"
+}

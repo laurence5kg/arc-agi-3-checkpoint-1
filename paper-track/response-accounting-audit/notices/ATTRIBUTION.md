@@ -1,0 +1,9 @@
+# Source provenance and modifications
+
+The runtime source derives from the Tufa Labs framework/source bundle attached to Daniel Franzen's ARC-AGI-3 Milestone 2 notebook. The notebook's embedded harness patch, not a replacement from the current repository, is the reference. Franzen's repository at commit 10882e332d883af3e61616df8c8a17d03a328a75 supplies the accompanying Apache-2.0 license. The original source headers are preserved. The exact source and notebook identities are recorded in the asset lock.
+
+Test1 modifications add optional mechanics memory, optional observed-history executable models and bounded search, and global deadline/process/pipe lifecycle handling. The step-three audit repairs JSON/protocol deadlines, mutable search actions, new-level replay, per-game session/log identity, and graceful budget exhaustion. Modified reference files are inference/agent/tool_agent.py, inference/agent/python_tool_sandbox.py, and inference/framework/solver.py. New implementation files are under inference/test1/. These are development candidates; there is no claimed new competition score.
+
+Ideas reviewed include Lohit's scheduling and memory work, Tycho's model-building workflow, and Kepler's executable-model validation and search. Their source archives and license texts were retained in preparation. Their game-specific implementations and replay sequences are not incorporated into this agent. The supplementary scheduler/backend arms remain separate research comparators.
+
+Neural target, draft checkpoint, FR-Spec map, and Pennyroyal/SGLang runtime are external pinned inputs. Their licenses and runtime source identities remain their respective upstream terms; they are not relicensed by this package. Model license metadata is included for reference. Full competition rules and final eligibility remain release checks.

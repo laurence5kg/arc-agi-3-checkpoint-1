@@ -1,0 +1,408 @@
+[
+  {
+    "case": "R0-cap-01",
+    "arm": "R0",
+    "public_game_run": "ls20-9607627b_p3",
+    "response_index": 18,
+    "completion_tokens": 12288,
+    "classification": [
+      "incomplete_or_invalid_python"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R0-cap-02",
+    "arm": "R0",
+    "public_game_run": "r11l-495a7899_p3",
+    "response_index": 21,
+    "completion_tokens": 12288,
+    "classification": [
+      "python_parses_but_response_is_capped"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R0-cap-03",
+    "arm": "R0",
+    "public_game_run": "r11l-495a7899_p3",
+    "response_index": 37,
+    "completion_tokens": 12288,
+    "classification": [
+      "incomplete_or_invalid_python"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R0-cap-04",
+    "arm": "R0",
+    "public_game_run": "re86-8af5384d_p0",
+    "response_index": 112,
+    "completion_tokens": 12288,
+    "classification": [
+      "python_parses_but_response_is_capped"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R0-cap-05",
+    "arm": "R0",
+    "public_game_run": "re86-8af5384d_p1",
+    "response_index": 76,
+    "completion_tokens": 12288,
+    "classification": [
+      "incomplete_or_invalid_python"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": true,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R0-cap-06",
+    "arm": "R0",
+    "public_game_run": "s5i5-18d95033_p1",
+    "response_index": 95,
+    "completion_tokens": 12288,
+    "classification": [
+      "incomplete_or_invalid_python"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R0-cap-07",
+    "arm": "R0",
+    "public_game_run": "s5i5-18d95033_p2",
+    "response_index": 26,
+    "completion_tokens": 12288,
+    "classification": [
+      "missing_code"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R0-cap-08",
+    "arm": "R0",
+    "public_game_run": "sc25-635fd71a_p2",
+    "response_index": 100,
+    "completion_tokens": 12288,
+    "classification": [
+      "incomplete_or_invalid_python"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R0-cap-09",
+    "arm": "R0",
+    "public_game_run": "sp80-589a99af_p0",
+    "response_index": 60,
+    "completion_tokens": 12288,
+    "classification": [
+      "incomplete_or_invalid_python"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R0-cap-10",
+    "arm": "R0",
+    "public_game_run": "sp80-589a99af_p3",
+    "response_index": 85,
+    "completion_tokens": 12288,
+    "classification": [
+      "incomplete_or_invalid_python"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R0-cap-11",
+    "arm": "R0",
+    "public_game_run": "tu93-0768757b_p1",
+    "response_index": 143,
+    "completion_tokens": 12288,
+    "classification": [
+      "incomplete_or_invalid_python"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R0-cap-12",
+    "arm": "R0",
+    "public_game_run": "wa30-ee6fef47_p3",
+    "response_index": 29,
+    "completion_tokens": 12288,
+    "classification": [
+      "incomplete_or_invalid_python"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R1-cap-01",
+    "arm": "R1",
+    "public_game_run": "bp35-0a0ad940_p3",
+    "response_index": 42,
+    "completion_tokens": 12288,
+    "classification": [
+      "python_parses_but_response_is_capped"
+    ],
+    "recorded_environment_actions": 1,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R1-cap-02",
+    "arm": "R1",
+    "public_game_run": "cn04-2fe56bfb_p1",
+    "response_index": 31,
+    "completion_tokens": 12288,
+    "classification": [
+      "incomplete_or_invalid_python"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R1-cap-03",
+    "arm": "R1",
+    "public_game_run": "lp85-305b61c3_p0",
+    "response_index": 78,
+    "completion_tokens": 12288,
+    "classification": [
+      "incomplete_or_invalid_python"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R1-cap-04",
+    "arm": "R1",
+    "public_game_run": "sk48-d8078629_p1",
+    "response_index": 46,
+    "completion_tokens": 12288,
+    "classification": [
+      "python_parses_but_response_is_capped"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": true,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R1-cap-05",
+    "arm": "R1",
+    "public_game_run": "sp80-589a99af_p0",
+    "response_index": 95,
+    "completion_tokens": 12288,
+    "classification": [
+      "python_parses_but_response_is_capped"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R1-cap-06",
+    "arm": "R1",
+    "public_game_run": "sp80-589a99af_p1",
+    "response_index": 24,
+    "completion_tokens": 12288,
+    "classification": [
+      "incomplete_or_invalid_python"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R1-cap-07",
+    "arm": "R1",
+    "public_game_run": "sp80-589a99af_p3",
+    "response_index": 29,
+    "completion_tokens": 12288,
+    "classification": [
+      "incomplete_or_invalid_python"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R1-cap-08",
+    "arm": "R1",
+    "public_game_run": "su15-1944f8ab_p0",
+    "response_index": 87,
+    "completion_tokens": 12288,
+    "classification": [
+      "python_parses_but_response_is_capped"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": true,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R2-cap-01",
+    "arm": "R2",
+    "public_game_run": "ka59-38d34dbb_p3",
+    "response_index": 84,
+    "completion_tokens": 12288,
+    "classification": [
+      "incomplete_or_invalid_python"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": true,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R2-cap-02",
+    "arm": "R2",
+    "public_game_run": "re86-8af5384d_p3",
+    "response_index": 70,
+    "completion_tokens": 12288,
+    "classification": [
+      "incomplete_or_invalid_python"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R2-cap-03",
+    "arm": "R2",
+    "public_game_run": "re86-8af5384d_p3",
+    "response_index": 94,
+    "completion_tokens": 12288,
+    "classification": [
+      "incomplete_or_invalid_python"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R2-cap-04",
+    "arm": "R2",
+    "public_game_run": "sp80-589a99af_p2",
+    "response_index": 32,
+    "completion_tokens": 12288,
+    "classification": [
+      "incomplete_or_invalid_python"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R2-cap-05",
+    "arm": "R2",
+    "public_game_run": "sp80-589a99af_p2",
+    "response_index": 46,
+    "completion_tokens": 12288,
+    "classification": [
+      "incomplete_or_invalid_python"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R2-cap-06",
+    "arm": "R2",
+    "public_game_run": "tn36-ef4dde99_p3",
+    "response_index": 46,
+    "completion_tokens": 12288,
+    "classification": [
+      "incomplete_or_invalid_python"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R2-cap-07",
+    "arm": "R2",
+    "public_game_run": "tr87-cd924810_p2",
+    "response_index": 28,
+    "completion_tokens": 12288,
+    "classification": [
+      "incomplete_or_invalid_python"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R2-cap-08",
+    "arm": "R2",
+    "public_game_run": "tu93-0768757b_p3",
+    "response_index": 88,
+    "completion_tokens": 12288,
+    "classification": [
+      "python_parses_but_response_is_capped"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  },
+  {
+    "case": "R2-cap-09",
+    "arm": "R2",
+    "public_game_run": "tu93-0768757b_p3",
+    "response_index": 144,
+    "completion_tokens": 12288,
+    "classification": [
+      "python_parses_but_response_is_capped"
+    ],
+    "recorded_environment_actions": 0,
+    "terminal": false,
+    "dispatch_logged": true,
+    "tool_result_logged": true
+  }
+]
